@@ -28,6 +28,9 @@ class MainApp extends StatelessWidget {
                 ),
               ],
             ),
+            child: Column(
+              children: [],
+            ),
           ),
         ),
       ),
