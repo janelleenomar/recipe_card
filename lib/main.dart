@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MainApp());
@@ -40,6 +41,22 @@ class MainApp extends StatelessWidget {
                     height: 230,
                     width: double.infinity,
                     fit: BoxFit.cover,
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsets.only(
+                    top: 10,
+                    bottom: 12,
+                    left: 16,
+                    right: 16,
+                  ),
+                  child: Text(
+                    'Lemon Herb Roasted Chicken',
+                    style: GoogleFonts.inter(
+                      fontSize: 25,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF1C3041),
+                    ),
                   ),
                 ),
               ],
