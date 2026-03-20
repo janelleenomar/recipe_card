@@ -160,12 +160,13 @@ class MainApp extends StatelessWidget {
                               color: Color(0xFF2C3E50),
                             ),
                           ),
-                          const Expanded(
+                          Expanded(
                             child: Text(
                               '1 whole chicken',
-                              style: TextStyle(
+                              style: GoogleFonts.inter(
                                 fontSize: 15,
-                                color: Color(0xFF2C3E50),
+                                fontWeight: FontWeight.w500,
+                                color: const Color(0xFF2C3E50),
                               ),
                             ),
                           ),
@@ -183,12 +184,13 @@ class MainApp extends StatelessWidget {
                               color: Color(0xFF2C3E50),
                             ),
                           ),
-                          const Expanded(
+                          Expanded(
                             child: Text(
                               'lemons',
-                              style: TextStyle(
+                              style: GoogleFonts.inter(
                                 fontSize: 15,
-                                color: Color(0xFF2C3E50),
+                                fontWeight: FontWeight.w500,
+                                color: const Color(0xFF2C3E50),
                               ),
                             ),
                           ),
@@ -206,12 +208,13 @@ class MainApp extends StatelessWidget {
                               color: Color(0xFF2C3E50),
                             ),
                           ),
-                          const Expanded(
+                          Expanded(
                             child: Text(
                               'lemons',
-                              style: TextStyle(
+                              style: GoogleFonts.inter(
                                 fontSize: 15,
-                                color: Color(0xFF2C3E50),
+                                fontWeight: FontWeight.w500,
+                                color: const Color(0xFF2C3E50),
                               ),
                             ),
                           ),
@@ -229,12 +232,13 @@ class MainApp extends StatelessWidget {
                               color: Color(0xFF2C3E50),
                             ),
                           ),
-                          const Expanded(
+                          Expanded(
                             child: Text(
                               'Fresh rosemary',
-                              style: TextStyle(
+                              style: GoogleFonts.inter(
                                 fontSize: 15,
-                                color: Color(0xFF2C3E50),
+                                fontWeight: FontWeight.w500,
+                                color: const Color(0xFF2C3E50),
                               ),
                             ),
                           ),
@@ -252,12 +256,13 @@ class MainApp extends StatelessWidget {
                               color: Color(0xFF2C3E50),
                             ),
                           ),
-                          const Expanded(
+                          Expanded(
                             child: Text(
                               'Resiple cormarn',
-                              style: TextStyle(
+                              style: GoogleFonts.inter(
                                 fontSize: 15,
-                                color: Color(0xFF2C3E50),
+                                fontWeight: FontWeight.w500,
+                                color: const Color(0xFF2C3E50),
                               ),
                             ),
                           ),
@@ -275,12 +280,13 @@ class MainApp extends StatelessWidget {
                               color: Color(0xFF2C3E50),
                             ),
                           ),
-                          const Expanded(
+                          Expanded(
                             child: Text(
                               'Pelite 1 ont Chicken',
-                              style: TextStyle(
+                              style: GoogleFonts.inter(
                                 fontSize: 15,
-                                color: Color(0xFF2C3E50),
+                                fontWeight: FontWeight.w500,
+                                color: const Color(0xFF2C3E50),
                               ),
                             ),
                           ),
