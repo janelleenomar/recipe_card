@@ -38,7 +38,7 @@ class MainApp extends StatelessWidget {
                   ),
                   child: Image.network(
                     'https://png.pngtree.com/thumb_back/fh260/background/20251118/pngtree-a-perfectly-roasted-whole-chicken-garnished-with-fresh-rosemary-and-lemon-image_20446568.webp',
-                    height: 230,
+                    height: 220,
                     width: double.infinity,
                     fit: BoxFit.cover,
                   ),
@@ -134,6 +134,153 @@ class MainApp extends StatelessWidget {
                               fontSize: 15,
                               color: Color(0xFF2C3E50),
                               fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 10),
+                      Text(
+                        'Ingredients',
+                        style: GoogleFonts.inter(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: Color(0xFF1C3041),
+                        ),
+                      ),
+                      SizedBox(height: 8),
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.only(top: 6, right: 8),
+                            child: Icon(
+                              Icons.circle,
+                              size: 8,
+                              color: Color(0xFF2C3E50),
+                            ),
+                          ),
+                          Expanded(
+                            child: Text(
+                              '1 whole chicken',
+                              style: TextStyle(
+                                fontSize: 15,
+                                color: Color(0xFF2C3E50),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 5),
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.only(top: 6, right: 8),
+                            child: Icon(
+                              Icons.circle,
+                              size: 8,
+                              color: Color(0xFF2C3E50),
+                            ),
+                          ),
+                          Expanded(
+                            child: Text(
+                              'lemons',
+                              style: TextStyle(
+                                fontSize: 15,
+                                color: Color(0xFF2C3E50),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 5),
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.only(top: 6, right: 8),
+                            child: Icon(
+                              Icons.circle,
+                              size: 8,
+                              color: Color(0xFF2C3E50),
+                            ),
+                          ),
+                          Expanded(
+                            child: Text(
+                              'lemons',
+                              style: TextStyle(
+                                fontSize: 15,
+                                color: Color(0xFF2C3E50),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 5),
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.only(top: 6, right: 8),
+                            child: Icon(
+                              Icons.circle,
+                              size: 8,
+                              color: Color(0xFF2C3E50),
+                            ),
+                          ),
+                          Expanded(
+                            child: Text(
+                              'Fresh rosmary',
+                              style: TextStyle(
+                                fontSize: 15,
+                                color: Color(0xFF2C3E50),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 5),
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.only(top: 6, right: 8),
+                            child: Icon(
+                              Icons.circle,
+                              size: 8,
+                              color: Color(0xFF2C3E50),
+                            ),
+                          ),
+                          Expanded(
+                            child: Text(
+                              'Resiple cormarn',
+                              style: TextStyle(
+                                fontSize: 15,
+                                color: Color(0xFF2C3E50),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 5),
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.only(top: 6, right: 8),
+                            child: Icon(
+                              Icons.circle,
+                              size: 8,
+                              color: Color(0xFF2C3E50),
+                            ),
+                          ),
+                          Expanded(
+                            child: Text(
+                              'Pelite 1 ont Chicken',
+                              style: TextStyle(
+                                fontSize: 15,
+                                color: Color(0xFF2C3E50),
+                              ),
                             ),
                           ),
                         ],
