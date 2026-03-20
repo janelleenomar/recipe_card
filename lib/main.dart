@@ -50,13 +50,95 @@ class MainApp extends StatelessWidget {
                     left: 16,
                     right: 16,
                   ),
-                  child: Text(
-                    'Lemon Herb Roasted Chicken',
-                    style: GoogleFonts.inter(
-                      fontSize: 25,
-                      fontWeight: FontWeight.bold,
-                      color: Color(0xFF1C3041),
-                    ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Lemon Herb Roasted Chicken',
+                        style: GoogleFonts.inter(
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold,
+                          color: Color(0xFF1C3041),
+                        ),
+                      ),
+                      SizedBox(height: 10),
+                      Row(
+                        children: [
+                          Container(
+                            width: 30,
+                            height: 30,
+                            decoration: BoxDecoration(
+                              color: Color(0xFF5A7A9A),
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                            child: Icon(
+                              Icons.access_time,
+                              color: Colors.white,
+                              size: 20,
+                            ),
+                          ),
+                          SizedBox(width: 8),
+                          Text(
+                            'Prep: 15 min',
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: Color(0xFF2C3E50),
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                          SizedBox(width: 25),
+                          Container(
+                            width: 30,
+                            height: 30,
+                            decoration: BoxDecoration(
+                              color: Color(0xFF5A7A9A),
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                            child: Icon(
+                              Icons.restaurant_menu,
+                              color: Colors.white,
+                              size: 20,
+                            ),
+                          ),
+                          SizedBox(width: 8),
+                          Text(
+                            'Difficulty: Easy',
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: Color(0xFF2C3E50),
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 10),
+                      Row(
+                        children: [
+                          Container(
+                            width: 30,
+                            height: 30,
+                            decoration: BoxDecoration(
+                              color: Color(0xFF5A7A9A),
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                            child: Icon(
+                              Icons.star_rounded,
+                              color: Colors.white,
+                              size: 20,
+                            ),
+                          ),
+                          SizedBox(width: 8),
+                          Text(
+                            'Cook: 45 min',
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: Color(0xFF2C3E50),
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ],
                   ),
                 ),
               ],
