@@ -157,18 +157,12 @@ class MainApp extends StatelessWidget {
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: const [
-                                  IngredientItem(
-                                    ingredientName: '1 whole chicken',
-                                  ),
+                                  IngredientItem(ingredientName: '1 whole chicken'),
                                   IngredientItem(ingredientName: 'lemons'),
                                   IngredientItem(ingredientName: 'lemons'),
-                                  IngredientItem(
-                                    ingredientName: 'Fresh rosemary',
-                                  ),
+                                  IngredientItem(ingredientName: 'Fresh rosemary'),
                                   IngredientItem(ingredientName: 'Olive oil'),
-                                  IngredientItem(
-                                    ingredientName: 'Salt and pepper',
-                                  ),
+                                  IngredientItem(ingredientName: 'Salt and pepper'),
                                 ],
                               ),
                             ),
