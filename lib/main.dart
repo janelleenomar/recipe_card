@@ -13,27 +13,27 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Color(0xFFDDE6ED),
+        backgroundColor: const Color(0xFFDDE6ED),
         body: Center(
           child: Container(
             width: 337,
             height: 600,
             decoration: BoxDecoration(
-              color: Color(0xFFF5F4EA),
+              color: const Color(0xFFF5F4EA),
               borderRadius: BorderRadius.circular(20),
               boxShadow: [
                 BoxShadow(
                   color: Colors.black.withAlpha(25),
                   spreadRadius: 10,
                   blurRadius: 15,
-                  offset: Offset(5, 10),
+                  offset: const Offset(5, 10),
                 ),
               ],
             ),
             child: Column(
               children: [
                 ClipRRect(
-                  borderRadius: BorderRadius.only(
+                  borderRadius: const BorderRadius.only(
                     topLeft: Radius.circular(20),
                     topRight: Radius.circular(20),
                   ),
@@ -45,7 +45,7 @@ class MainApp extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsets.only(
+                  padding: const EdgeInsets.only(
                     top: 10,
                     bottom: 12,
                     left: 16,
@@ -59,27 +59,27 @@ class MainApp extends StatelessWidget {
                         style: GoogleFonts.inter(
                           fontSize: 25,
                           fontWeight: FontWeight.bold,
-                          color: Color(0xFF1C3041),
+                          color: const Color(0xFF1C3041),
                         ),
                       ),
-                      SizedBox(height: 10),
+                      const SizedBox(height: 10),
                       Row(
                         children: [
                           Container(
                             width: 30,
                             height: 30,
                             decoration: BoxDecoration(
-                              color: Color(0xFF5A7A9A),
+                              color: const Color(0xFF5A7A9A),
                               borderRadius: BorderRadius.circular(6),
                             ),
-                            child: Icon(
+                            child: const Icon(
                               Icons.access_time,
                               color: Colors.white,
                               size: 20,
                             ),
                           ),
-                          SizedBox(width: 8),
-                          Text(
+                          const SizedBox(width: 8),
+                          const Text(
                             'Prep: 15 min',
                             style: TextStyle(
                               fontSize: 15,
@@ -87,22 +87,22 @@ class MainApp extends StatelessWidget {
                               fontWeight: FontWeight.w600,
                             ),
                           ),
-                          SizedBox(width: 25),
+                          const SizedBox(width: 25),
                           Container(
                             width: 30,
                             height: 30,
                             decoration: BoxDecoration(
-                              color: Color(0xFF5A7A9A),
+                              color: const Color(0xFF5A7A9A),
                               borderRadius: BorderRadius.circular(6),
                             ),
-                            child: Icon(
+                            child: const Icon(
                               Icons.restaurant_menu,
                               color: Colors.white,
                               size: 20,
                             ),
                           ),
-                          SizedBox(width: 8),
-                          Text(
+                          const SizedBox(width: 8),
+                          const Text(
                             'Difficulty: Easy',
                             style: TextStyle(
                               fontSize: 15,
@@ -112,24 +112,24 @@ class MainApp extends StatelessWidget {
                           ),
                         ],
                       ),
-                      SizedBox(height: 10),
+                      const SizedBox(height: 10),
                       Row(
                         children: [
                           Container(
                             width: 30,
                             height: 30,
                             decoration: BoxDecoration(
-                              color: Color(0xFF5A7A9A),
+                              color: const Color(0xFF5A7A9A),
                               borderRadius: BorderRadius.circular(6),
                             ),
-                            child: Icon(
+                            child: const Icon(
                               Icons.star_rounded,
                               color: Colors.white,
                               size: 20,
                             ),
                           ),
-                          SizedBox(width: 8),
-                          Text(
+                          const SizedBox(width: 8),
+                          const Text(
                             'Cook: 45 min',
                             style: TextStyle(
                               fontSize: 15,
@@ -139,20 +139,20 @@ class MainApp extends StatelessWidget {
                           ),
                         ],
                       ),
-                      SizedBox(height: 10),
+                      const SizedBox(height: 10),
                       Text(
                         'Ingredients',
                         style: GoogleFonts.inter(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
-                          color: Color(0xFF1C3041),
+                          color: const Color(0xFF1C3041),
                         ),
                       ),
-                      SizedBox(height: 8),
+                      const SizedBox(height: 8),
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Padding(
+                          const Padding(
                             padding: EdgeInsets.only(top: 6, right: 8),
                             child: Icon(
                               Icons.circle,
@@ -160,7 +160,7 @@ class MainApp extends StatelessWidget {
                               color: Color(0xFF2C3E50),
                             ),
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Text(
                               '1 whole chicken',
                               style: TextStyle(
@@ -171,11 +171,11 @@ class MainApp extends StatelessWidget {
                           ),
                         ],
                       ),
-                      SizedBox(height: 5),
+                      const SizedBox(height: 5),
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Padding(
+                          const Padding(
                             padding: EdgeInsets.only(top: 6, right: 8),
                             child: Icon(
                               Icons.circle,
@@ -183,7 +183,7 @@ class MainApp extends StatelessWidget {
                               color: Color(0xFF2C3E50),
                             ),
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Text(
                               'lemons',
                               style: TextStyle(
@@ -194,11 +194,11 @@ class MainApp extends StatelessWidget {
                           ),
                         ],
                       ),
-                      SizedBox(height: 5),
+                      const SizedBox(height: 5),
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Padding(
+                          const Padding(
                             padding: EdgeInsets.only(top: 6, right: 8),
                             child: Icon(
                               Icons.circle,
@@ -206,7 +206,7 @@ class MainApp extends StatelessWidget {
                               color: Color(0xFF2C3E50),
                             ),
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Text(
                               'lemons',
                               style: TextStyle(
@@ -217,11 +217,11 @@ class MainApp extends StatelessWidget {
                           ),
                         ],
                       ),
-                      SizedBox(height: 5),
+                      const SizedBox(height: 5),
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Padding(
+                          const Padding(
                             padding: EdgeInsets.only(top: 6, right: 8),
                             child: Icon(
                               Icons.circle,
@@ -229,7 +229,7 @@ class MainApp extends StatelessWidget {
                               color: Color(0xFF2C3E50),
                             ),
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Text(
                               'Fresh rosmary',
                               style: TextStyle(
@@ -240,11 +240,11 @@ class MainApp extends StatelessWidget {
                           ),
                         ],
                       ),
-                      SizedBox(height: 5),
+                      const SizedBox(height: 5),
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Padding(
+                          const Padding(
                             padding: EdgeInsets.only(top: 6, right: 8),
                             child: Icon(
                               Icons.circle,
@@ -252,7 +252,7 @@ class MainApp extends StatelessWidget {
                               color: Color(0xFF2C3E50),
                             ),
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Text(
                               'Resiple cormarn',
                               style: TextStyle(
@@ -263,11 +263,11 @@ class MainApp extends StatelessWidget {
                           ),
                         ],
                       ),
-                      SizedBox(height: 5),
+                      const SizedBox(height: 5),
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Padding(
+                          const Padding(
                             padding: EdgeInsets.only(top: 6, right: 8),
                             child: Icon(
                               Icons.circle,
@@ -275,7 +275,7 @@ class MainApp extends StatelessWidget {
                               color: Color(0xFF2C3E50),
                             ),
                           ),
-                          Expanded(
+                          const Expanded(
                             child: Text(
                               'Pelite 1 ont Chicken',
                               style: TextStyle(
@@ -288,18 +288,18 @@ class MainApp extends StatelessWidget {
                             width: 40,
                             height: 40,
                             decoration: BoxDecoration(
-                              color: Color(0xFFF5F4EA),
+                              color: const Color(0xFFF5F4EA),
                               borderRadius: BorderRadius.circular(20),
                               boxShadow: [
                                 BoxShadow(
                                   color: Colors.black.withAlpha(25),
                                   spreadRadius: 10,
                                   blurRadius: 15,
-                                  offset: Offset(5, 10),
+                                  offset: const Offset(5, 10),
                                 ),
                               ],
                             ),
-                            child: Icon(
+                            child: const Icon(
                               Icons.favorite,
                               color: Color(0xFF1C3041),
                               size: 20,
