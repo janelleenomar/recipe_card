@@ -40,7 +40,7 @@ class MainApp extends StatelessWidget {
                     ),
                     child: Image.network(
                       'https://png.pngtree.com/thumb_back/fh260/background/20251118/pngtree-a-perfectly-roasted-whole-chicken-garnished-with-fresh-rosemary-and-lemon-image_20446568.webp',
-                      height: 205,
+                      height: 220,
                       width: double.infinity,
                       fit: BoxFit.cover,
                     ),
