@@ -11,6 +11,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
+        backgroundColor: Color(0xFFDDE6ED),
         body: Center(
         ),
       ),
