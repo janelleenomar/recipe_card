@@ -231,7 +231,7 @@ class MainApp extends StatelessWidget {
                           ),
                           const Expanded(
                             child: Text(
-                              'Fresh rosmary',
+                              'Fresh rosemary',
                               style: TextStyle(
                                 fontSize: 15,
                                 color: Color(0xFF2C3E50),
