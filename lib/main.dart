@@ -79,12 +79,12 @@ class MainApp extends StatelessWidget {
                             ),
                           ),
                           const SizedBox(width: 8),
-                          const Text(
+                          Text(
                             'Prep: 15 min',
-                            style: TextStyle(
+                            style: GoogleFonts.inter(
                               fontSize: 15,
-                              color: Color(0xFF2C3E50),
-                              fontWeight: FontWeight.w600,
+                              color: const Color(0xFF2C3E50),
+                              fontWeight: FontWeight.w500,
                             ),
                           ),
                           const SizedBox(width: 25),
@@ -102,12 +102,12 @@ class MainApp extends StatelessWidget {
                             ),
                           ),
                           const SizedBox(width: 8),
-                          const Text(
+                          Text(
                             'Difficulty: Easy',
-                            style: TextStyle(
+                            style: GoogleFonts.inter(
                               fontSize: 15,
-                              color: Color(0xFF2C3E50),
-                              fontWeight: FontWeight.w600,
+                              color: const Color(0xFF2C3E50),
+                              fontWeight: FontWeight.w500,
                             ),
                           ),
                         ],
@@ -129,12 +129,12 @@ class MainApp extends StatelessWidget {
                             ),
                           ),
                           const SizedBox(width: 8),
-                          const Text(
+                          Text(
                             'Cook: 45 min',
-                            style: TextStyle(
+                            style: GoogleFonts.inter(
                               fontSize: 15,
-                              color: Color(0xFF2C3E50),
-                              fontWeight: FontWeight.w600,
+                              color: const Color(0xFF2C3E50),
+                              fontWeight: FontWeight.w500,
                             ),
                           ),
                         ],
