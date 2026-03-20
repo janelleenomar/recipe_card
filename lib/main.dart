@@ -39,7 +39,7 @@ class MainApp extends StatelessWidget {
                   ),
                   child: Image.network(
                     'https://png.pngtree.com/thumb_back/fh260/background/20251118/pngtree-a-perfectly-roasted-whole-chicken-garnished-with-fresh-rosemary-and-lemon-image_20446568.webp',
-                    height: 220,
+                    height: 205,
                     width: double.infinity,
                     fit: BoxFit.cover,
                   ),
@@ -282,6 +282,27 @@ class MainApp extends StatelessWidget {
                                 fontSize: 15,
                                 color: Color(0xFF2C3E50),
                               ),
+                            ),
+                          ),
+                          Container(
+                            width: 40,
+                            height: 40,
+                            decoration: BoxDecoration(
+                              color: Color(0xFFF5F4EA),
+                              borderRadius: BorderRadius.circular(20),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black.withAlpha(25),
+                                  spreadRadius: 10,
+                                  blurRadius: 15,
+                                  offset: Offset(5, 10),
+                                ),
+                              ],
+                            ),
+                            child: Icon(
+                              Icons.favorite,
+                              color: Color(0xFF1C3041),
+                              size: 20,
                             ),
                           ),
                         ],
