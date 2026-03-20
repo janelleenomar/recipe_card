@@ -150,144 +150,19 @@ class MainApp extends StatelessWidget {
                       ),
                       const SizedBox(height: 8),
                       Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Padding(
-                            padding: EdgeInsets.only(top: 6, right: 8),
-                            child: Icon(
-                              Icons.circle,
-                              size: 8,
-                              color: Color(0xFF2C3E50),
-                            ),
-                          ),
                           Expanded(
-                            child: Text(
-                              '1 whole chicken',
-                              style: GoogleFonts.inter(
-                                fontSize: 15,
-                                fontWeight: FontWeight.w500,
-                                color: const Color(0xFF2C3E50),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 5),
-                      Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          const Padding(
-                            padding: EdgeInsets.only(top: 6, right: 8),
-                            child: Icon(
-                              Icons.circle,
-                              size: 8,
-                              color: Color(0xFF2C3E50),
-                            ),
-                          ),
-                          Expanded(
-                            child: Text(
-                              'lemons',
-                              style: GoogleFonts.inter(
-                                fontSize: 15,
-                                fontWeight: FontWeight.w500,
-                                color: const Color(0xFF2C3E50),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 5),
-                      Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          const Padding(
-                            padding: EdgeInsets.only(top: 6, right: 8),
-                            child: Icon(
-                              Icons.circle,
-                              size: 8,
-                              color: Color(0xFF2C3E50),
-                            ),
-                          ),
-                          Expanded(
-                            child: Text(
-                              'lemons',
-                              style: GoogleFonts.inter(
-                                fontSize: 15,
-                                fontWeight: FontWeight.w500,
-                                color: const Color(0xFF2C3E50),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 5),
-                      Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          const Padding(
-                            padding: EdgeInsets.only(top: 6, right: 8),
-                            child: Icon(
-                              Icons.circle,
-                              size: 8,
-                              color: Color(0xFF2C3E50),
-                            ),
-                          ),
-                          Expanded(
-                            child: Text(
-                              'Fresh rosemary',
-                              style: GoogleFonts.inter(
-                                fontSize: 15,
-                                fontWeight: FontWeight.w500,
-                                color: const Color(0xFF2C3E50),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 5),
-                      Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          const Padding(
-                            padding: EdgeInsets.only(top: 6, right: 8),
-                            child: Icon(
-                              Icons.circle,
-                              size: 8,
-                              color: Color(0xFF2C3E50),
-                            ),
-                          ),
-                          Expanded(
-                            child: Text(
-                              'Resiple cormarn',
-                              style: GoogleFonts.inter(
-                                fontSize: 15,
-                                fontWeight: FontWeight.w500,
-                                color: const Color(0xFF2C3E50),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 5),
-                      Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          const Padding(
-                            padding: EdgeInsets.only(top: 6, right: 8),
-                            child: Icon(
-                              Icons.circle,
-                              size: 8,
-                              color: Color(0xFF2C3E50),
-                            ),
-                          ),
-                          Expanded(
-                            child: Text(
-                              'Pelite 1 ont Chicken',
-                              style: GoogleFonts.inter(
-                                fontSize: 15,
-                                fontWeight: FontWeight.w500,
-                                color: const Color(0xFF2C3E50),
-                              ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: const [
+                                IngredientItem(ingredientName: '1 whole chicken'),
+                                IngredientItem(ingredientName: 'lemons'),
+                                IngredientItem(ingredientName: 'lemons'),
+                                IngredientItem(ingredientName: 'Fresh rosemary'),
+                                IngredientItem(ingredientName: 'Olive oil'),
+                                IngredientItem(ingredientName: 'Salt and pepper'),
+                              ],
                             ),
                           ),
                           Container(
@@ -320,6 +195,38 @@ class MainApp extends StatelessWidget {
             ),
           ),
         ),
+      ),
+    );
+  }
+}
+
+class IngredientItem extends StatelessWidget {
+  final String ingredientName;
+
+  const IngredientItem({super.key, required this.ingredientName});
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 5),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Padding(
+            padding: EdgeInsets.only(top: 6, right: 8),
+            child: Icon(Icons.circle, size: 8, color: Color(0xFF2C3E50)),
+          ),
+          Expanded(
+            child: Text(
+              ingredientName,
+              style: GoogleFonts.inter(
+                fontSize: 15,
+                fontWeight: FontWeight.w500,
+                color: const Color(0xFF2C3E50),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
