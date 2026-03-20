@@ -221,8 +221,8 @@ class IngredientItem extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Padding(
-            padding: EdgeInsets.only(top: 6, right: 8),
-            child: Icon(Icons.circle, size: 8, color: Color(0xFF2C3E50)),
+            padding: EdgeInsets.only(top: 6, left: 5, right: 8),
+            child: Icon(Icons.circle, size: 5, color: Color(0xFF2C3E50)),
           ),
           Expanded(
             child: Text(
